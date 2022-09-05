@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -28,6 +25,12 @@ body {
   line-height: 1.5rem;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
 a {
   color: inherit;
 }
@@ -42,3 +45,86 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header {
+  background: #e7e7db;
+  text-align: center;
+  padding: 14px 0 12px 0;
+}
+
+.dessin-monstre {
+  border-bottom: 2px solid #df0000;
+  border-top: 3px solid #df0000;
+}
+
+h2 {
+  border-bottom: 1px solid #df0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #df0000;
+  text-align: center;
+  padding: 22px 75px;
+  line-height: 42px;
+}
+
+h2 span {
+  color: #172632;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172632;
+  text-align: center;
+  padding: 26px 0 38px 0;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  color: #172632;
+  text-align: center;
+  margin-top: 36px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #172632;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.container {
+  padding: 0 27px;
+  margin-bottom: 14px;
+}
+
+.produit {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-produit {
+  background-color: #df0000;
+  padding: 25px 90px;
+}
+
+.order {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.order-button {
+  background: #df0000;
+  border-radius: 8px;
+  text-align: center;
+  padding: 7px 12px 6px;
+  margin: 46px 141px;
+}
